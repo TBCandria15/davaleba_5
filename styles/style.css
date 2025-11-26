@@ -15,7 +15,21 @@
 	vertical-align: top;
 }
 
+.text {
+	position: relative;
+	display: inline-block;
+	margin-bottom: 42px;
+}
 
+.text p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+}
 
 .right-side div:first-child, .right-side div:nth-child(2) {
 	margin-bottom: 100px;
