@@ -1,0 +1,22 @@
+.container {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.left-side {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 45px;
+}
+
+.right-side {
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+
+.right-side div:first-child, .right-side div:nth-child(2) {
+	margin-bottom: 100px;
+}
